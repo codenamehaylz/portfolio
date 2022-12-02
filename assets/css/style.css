@@ -22,13 +22,40 @@ p {
   margin: 0;
 }
 
-/*TODO Make header section a flexbox*/
-/*TODO make list style none to remove bullet points in nav*/
+a {
+  text-decoration: none;
+}
 
+/*Header and nav*/
+
+#navBar {
+  display: flex;
+  justify-content: space-between;
+}
+
+#navLinks {
+  display: flex;
+  justify-content: space-between;
+  align-content: center;
+}
+
+#navLinks li {
+  padding: 0px 20px;
+}
+
+li {
+  list-style: none;
+}
+
+/*Hero banner*/
 /*TODO Give hero-banner background image*/
 
+
+/*Work section*/
 /*TODO Make page-wrapper a grid or flexbox??*/
 
 /*TODO Make a grid within id 'work'*/
 
+
+/*Contact section*/
 /*TODO make contact section a flexbox*/
