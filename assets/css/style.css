@@ -1,3 +1,9 @@
+/*:root {
+  --dark: rgb(75, 50, 80);
+  --light: rgb(200, 200, 200);
+}
+*/
+
 * {
   box-sizing: border-box;
 }
@@ -24,9 +30,21 @@ p {
 
 a {
   text-decoration: none;
+  border-bottom: 2px solid;
+  color: lightblue;
 }
 
 /*Header and nav*/
+
+header {
+  padding: 10px 0;
+  background-color: lightslategrey;
+}
+
+header h1 {
+  padding: 0 10px 0 60px;
+  background-color: lightblue;
+}
 
 #navBar {
   display: flex;
@@ -48,14 +66,115 @@ li {
 }
 
 /*Hero banner*/
-/*TODO Give hero-banner background image*/
 
+.hero-banner {
+  display: flex;
+  height: 180px;
+  background: url(../images/02-hero-bg.jpg) no-repeat;
+  background-size: 100%;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+
+#hero {
+  background-color: lightblue;
+  margin: 0 100px 20px 0;
+  padding: 5px;
+}
+
+
+/*About Me*/
+
+#about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#about h2 {
+  border-right: 2px solid lightblue;
+  width: 20%;
+  padding: 0 10px;
+  text-align: right;
+}
+
+#about p {
+  width: 60%;
+  padding: 0 20px;
+}
 
 /*Work section*/
-/*TODO Make page-wrapper a grid or flexbox??*/
+/*TODO add images and style to grid items*/
 
-/*TODO Make a grid within id 'work'*/
+#work {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#work h2 {
+  border-right: 2px solid lightblue;
+  width: 20%;
+  padding: 0 10px;
+  text-align: right;
+}
+
+#work-grid {
+  width: 60%;
+  padding: 0 20px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 2fr 1fr 1fr;
+  grid-template-areas:
+  "project1 project1"
+  "project2 project3"
+  "project4 project5"
+  ;
+}
+
+#project1 {
+  grid-area: project1;
+}
+
+#project2 {
+  grid-area: project2;
+}
+
+#project3 {
+  grid-area: project3;
+}
+
+#project4 {
+  grid-area: project4;
+}
+
+#project5 {
+  grid-area: project5;
+}
 
 
 /*Contact section*/
-/*TODO make contact section a flexbox*/
+
+#contact {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#contact h2 {
+  border-right: 2px solid lightblue;
+  width: 20%;
+  padding: 0 10px;
+  text-align: right;
+}
+
+#contact ul {
+  width: 60%;
+  padding: 0 20px;
+}
+
+#contact-links {
+  display: flex;
+  justify-content: space-around;
+  align-content: center;
+}
