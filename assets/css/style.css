@@ -50,8 +50,9 @@ header {
 }
 
 header h1 {
-  padding: 0 10px 0 60px;
-  background-color: lightblue;
+  padding: 0 10px 0 10%;
+  background-color: #add8e6;
+  border-radius: 0 20px 20px 0;
 }
 
 #navBar {
@@ -63,6 +64,7 @@ header h1 {
   display: flex;
   justify-content: space-between;
   align-content: center;
+  font-size: 20px;
 }
 
 #navLinks li {
@@ -86,8 +88,9 @@ li {
 
 #hero {
   background-color: lightblue;
-  margin: 0 10% 20px 0;
-  padding: 5px;
+  margin: 0 0 20px 0;
+  padding: 5px 10% 5px 5px;
+  border-radius: 20px 0 0 20px;
 }
 
 
@@ -113,7 +116,6 @@ li {
 }
 
 /*Work section*/
-/*TODO add images and style to grid items*/
 
 #work {
   display: flex;
@@ -149,8 +151,6 @@ li {
   background: lightblue url(../images/02-portfolio-1.jpg) no-repeat center;
   background-size: cover;
   border-radius: 20px;
-
-
 }
 
 #project2 {
@@ -200,6 +200,7 @@ li {
   bottom: 1em;
   left: 0;
   background-color: lightblue;
+  padding: 5px;
 }
 
 /*Contact section*/
