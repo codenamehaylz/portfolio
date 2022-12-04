@@ -78,7 +78,7 @@ li {
 
 #hero {
   background-color: lightblue;
-  margin: 0 100px 20px 0;
+  margin: 0 10% 20px 0;
   padding: 5px;
 }
 
@@ -88,7 +88,7 @@ li {
 #about {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
 }
 
 #about h2 {
@@ -109,7 +109,7 @@ li {
 #work {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
 }
 
 #work h2 {
@@ -121,6 +121,7 @@ li {
 
 #work-grid {
   width: 60%;
+  height: 600px;
   padding: 0 20px;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -134,31 +135,41 @@ li {
 
 #project1 {
   grid-area: project1;
+  background-image: url(../images/02-portfolio-1.jpg);
 }
 
 #project2 {
   grid-area: project2;
+  background-image: url(../images/02-portfolio-2.jpg);
 }
 
 #project3 {
   grid-area: project3;
+  background-image: url(../images/02-portfolio-3.jpg);
 }
 
 #project4 {
   grid-area: project4;
+  background-image: url(../images/02-portfolio-4.jpg);
 }
 
 #project5 {
   grid-area: project5;
+  background-image: url(../images/02-run-buddy.jpg);
 }
 
+#work-grid a {
+  text-decoration: none;
+  border-bottom: none;
+  color: black;
+}
 
 /*Contact section*/
 
 #contact {
   display: flex;
   justify-content: center;
-  align-items: center;
+  align-items: flex-start;
 }
 
 #contact h2 {
