@@ -80,17 +80,29 @@ li {
 .hero-banner {
   display: flex;
   height: 180px;
+
   background: url(../images/02-hero-bg.jpg) no-repeat;
   background-size: 100%;
   justify-content: flex-end;
-  align-items: flex-end;
+  align-items: center;
+}
+
+#hero h2 {
+  align-self: center;
+  background-color: lightblue;
+  padding: 5px 300px 5px 5px;
+  border-radius: 20px 0 0 20px;
 }
 
 #hero {
+  display: inline-flex;
+}
+
+#hero img {
+  border-radius: 50%;
   background-color: lightblue;
-  margin: 0 0 20px 0;
-  padding: 5px 10% 5px 5px;
-  border-radius: 20px 0 0 20px;
+  position: relative;
+  left: 600px;
 }
 
 
@@ -229,3 +241,6 @@ li {
   justify-content: space-around;
   align-content: center;
 }
+
+/*TODO add Media Queries*/
+/*Media Queries*/
