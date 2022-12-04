@@ -1,8 +1,7 @@
-/*:root {
-  --dark: rgb(75, 50, 80);
-  --light: rgb(200, 200, 200);
+:root {
+  --blue: #0f3c72;
+  --lblue: rgb(173, 200, 230);
 }
-*/
 
 * {
   box-sizing: border-box;
@@ -39,19 +38,19 @@ p {
 a {
   text-decoration: none;
   border-bottom: 2px solid;
-  color: lightblue;
+  color: var(--blue);
 }
 
 /*Header and nav*/
 
 header {
   padding: 10px 0;
-  background-color: lightslategrey;
+  background-color: var(--lblue);
 }
 
 header h1 {
   padding: 0 10px 0 10%;
-  background-color: #add8e6;
+  background-color: #ffffff;
   border-radius: 0 20px 20px 0;
 }
 
@@ -81,7 +80,7 @@ li {
   display: flex;
   height: 180px;
 
-  background: url(../images/02-hero-bg.jpg) no-repeat;
+  background: url(../images/herobackground.jpg) no-repeat;
   background-size: 100%;
   justify-content: flex-end;
   align-items: center;
@@ -89,7 +88,7 @@ li {
 
 #hero h2 {
   align-self: center;
-  background-color: lightblue;
+  background-color: #ffffff;
   padding: 5px 292px 5px 5px;
   border-radius: 20px 0 0 20px;
 }
@@ -100,7 +99,7 @@ li {
 
 #hero img {
   border-radius: 50%;
-  background-color: lightblue;
+  background-color: #ffffff;
   position: relative;
   left: 600px;
   width: 150px;
@@ -118,7 +117,7 @@ li {
 }
 
 #about h2 {
-  border-right: 2px solid lightblue;
+  border-right: 2px solid var(--lblue);
   width: 15%;
   padding: 0 10px;
   text-align: right;
@@ -139,7 +138,7 @@ li {
 }
 
 #work h2 {
-  border-right: 2px solid lightblue;
+  border-right: 2px solid var(--lblue);
   width: 15%;
   padding: 0 10px;
   text-align: right;
@@ -162,14 +161,14 @@ li {
 
 #project1 {
   grid-area: project1;
-  background: lightblue url(../images/02-portfolio-1.jpg) no-repeat center;
+  background: var(--lblue) url(../images/02-portfolio-1.jpg) no-repeat center;
   background-size: cover;
   border-radius: 20px;
 }
 
 #project2 {
   grid-area: project2;
-  background: lightblue url(../images/02-portfolio-2.jpg) no-repeat center;
+  background: var(--lblue) url(../images/02-portfolio-2.jpg) no-repeat center;
   background-size: cover;
   border-radius: 20px;
 
@@ -177,7 +176,7 @@ li {
 
 #project3 {
   grid-area: project3;
-  background: lightblue url(../images/02-portfolio-3.jpg) no-repeat center;
+  background: var(--lblue) url(../images/02-portfolio-3.jpg) no-repeat center;
   background-size: cover;
   border-radius: 20px;
 
@@ -185,7 +184,7 @@ li {
 
 #project4 {
   grid-area: project4;
-  background: lightblue url(../images/02-portfolio-4.jpg) no-repeat center;
+  background: var(--lblue) url(../images/02-portfolio-4.jpg) no-repeat center;
   background-size: cover;
   border-radius: 20px;
 
@@ -193,7 +192,7 @@ li {
 
 #project5 {
   grid-area: project5;
-  background: lightblue url(../images/02-run-buddy.jpg) no-repeat center;
+  background: var(--lblue) url(../images/02-run-buddy.jpg) no-repeat center;
   background-size: cover;
   border-radius: 20px;
 
@@ -213,7 +212,7 @@ li {
   position: absolute;
   bottom: 1em;
   left: 0;
-  background-color: lightblue;
+  background-color: var(--lblue);
   padding: 5px;
 }
 
@@ -227,7 +226,7 @@ li {
 }
 
 #contact h2 {
-  border-right: 2px solid lightblue;
+  border-right: 2px solid var(--lblue);
   width: 15%;
   padding: 0 10px;
   text-align: right;
@@ -241,7 +240,7 @@ li {
   padding: 0 20px;
 }
 
-/*TODO add Media Queries*/
+
 /*Media Queries*/
 
 /*Medium screen*/
@@ -287,7 +286,7 @@ li {
   }
   
   #about h2 {
-    border-bottom: 2px solid lightblue;
+    border-bottom: 2px solid var(--lblue);
     border-right: none;
     width: 100%;
     text-align: left;
@@ -307,7 +306,7 @@ li {
   }
   
   #work h2 {
-    border-bottom: 2px solid lightblue;
+    border-bottom: 2px solid var(--lblue);
     border-right: none;
     width: 100%;
     text-align: left;
@@ -327,7 +326,7 @@ li {
   }
   
   #contact h2 {
-    border-bottom: 2px solid lightblue;
+    border-bottom: 2px solid var(--lblue);
     border-right: none;
     width: 100%;
     text-align: left;
