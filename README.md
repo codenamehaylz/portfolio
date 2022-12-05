@@ -9,7 +9,7 @@ The page is built using HTML and CSS only, including the use of flexbox and grid
 
 [Click Here](https://codenamehaylz.github.io/portfolio/) to see the deployed page.
 
-![Screenshot of the deployed page](assets/images/FullScreenshot.png)
+![A screenshot of the deployed page](assets/images/FullScreenshot.png)
 
 ## Usage
 
