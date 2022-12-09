@@ -3,7 +3,7 @@
 ## Description
 This is my Web Development portfolio, which displays the projects that I have completed, as well as a short introduction to myself and my contact information.
 
-The purpose of the portfolio is to demonstarte my skills to potential employers or clients, and provide a template which I can build upon as I complete more projects and gain more programming knowledge.
+The purpose of the portfolio is to demonstrate my skills to potential employers or clients, and provide a template which I can build upon as I complete more projects and gain more programming knowledge.
 
 The page is built using HTML and CSS only, including the use of flexbox and grids. In the future I plan to add Javascript and more advanced CSS.
 
